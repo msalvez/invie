@@ -121,7 +121,28 @@ text-decoration: none;
   line-height: 20px;
   color: white;
 }
+.menu2{
+  font-size: 24px;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 35px;
+}
+.menu2 a{
+color: #fd324e;
+text-decoration: none;
+}
 
+.menu2 li{
+  display: inline-block;
+  margin-left: 30px;
+}
+.menu2 li:before{
+  content: '∘';
+  font-size: 20px;
+  line-height: 20px;
+  color: #fd324e;
+}
 /*..................logotipo..................*/
 .logotipo{
   display: inline-block;
